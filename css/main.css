@@ -23,10 +23,10 @@ main {
   "c" 200px
   "d" 500px
   "e" 500px
-  "f" 100px
-  "g" 100px
-  "h" 100px
-  "i" 100px
+  "f" 500px
+  "g" 500px
+  "h" 400px
+  "i" 400px
   ;
 }
 
@@ -297,12 +297,6 @@ main {
 
 .home-footer {
   grid-area: i;
-}
-
-main {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
 }
 
 body {
