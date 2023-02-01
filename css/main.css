@@ -379,7 +379,7 @@ h2, h3, h4, h5, h6 {
 
 .home_footer__bio {
   display: flex;
-  margin: 25px 0px 35px 0px;
+  margin: 25px 0px 60px 0px;
 }
 
 .home_footer__desc {
@@ -406,14 +406,18 @@ h2, h3, h4, h5, h6 {
 }
 
 .home_footer__bio p {
-  font-size: 9.42px;
+  font-size: 10.42px;
+  line-height: 1rem;
+  font-style: italic;
 }
 
 .home_footer__col {
-  font-size: 7.68px;
+  font-size: 8.68px;
+  line-height: 1rem;
 }
 
 .home_footer__col h2 {
   font-size: 12.85px;
+  line-height: 1rem;
 }
 
