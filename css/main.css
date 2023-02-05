@@ -852,6 +852,8 @@ h2, h3, h4, h5, h6 {
 
   .page__main_msg > h1{
     font-size: 60px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 
   .main_msg_line {
