@@ -322,17 +322,17 @@ main {
 
 .project {
   grid-area: f;
-  margin: 60px 0px 0px 0px;
+  margin: 3.75rem 0rem 0rem 0rem;
 }
 
 .things_above {
   grid-area: g;
-  margin: 60px 0px 60px 0px;
+  margin: 3.75rem 0rem 0rem 0rem;
 }
 
 .worked_with {
   grid-area: h;
-  margin: 0px 0px 60px 0px;
+  margin: 0rem 0rem 3.75rem 0rem;
 }
 
 .home-footer {
@@ -348,7 +348,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .home__sub_header {
-  margin: 15px 0px 35px 0px;
+  margin: 0.938rem 0rem 35rem 0rem;
   color: #a3a3a3;
 }
 
@@ -382,7 +382,7 @@ h2, h3, h4, h5, h6 {
 .project__3_col_med {
   grid-template-columns: repeat(3, 1fr);
   display: grid;
-  gap: 25px;
+  gap: 1.563rem;
 }
 
 .things_above__container {
@@ -394,11 +394,11 @@ h2, h3, h4, h5, h6 {
 .things_above__2_col_lar {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
+  gap: 1.563rem;
 }
 
 .things_above__grid_item {
-  max-height: 275px;
+  max-height: 17.188rem;
 }
 
 .things_above__img {
@@ -414,7 +414,7 @@ h2, h3, h4, h5, h6 {
   max-width: 59.375rem;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 25px;
+  gap: 1.563rem;
   justify-content: center;
 }
 
@@ -434,13 +434,13 @@ h2, h3, h4, h5, h6 {
 
 .home_footer__bio {
   display: flex;
-  margin: 25px 0px 60px 0px;
+  margin: 1.563rem 0rem 3.75px 0rem;
   position: relative;
 }
 
 .home_footer__bio::after {
   content: '';
-  height: 2px;
+  height: 0.125rem;
   position: absolute;
   left: 0;
   right: 0;
@@ -451,22 +451,22 @@ h2, h3, h4, h5, h6 {
 .home_footer__desc {
   display: flex;
   flex-direction: column;
-  margin: 0px 20px 20px 20px;
+  margin: 0rem 1.25rem 0rem 0rem;
 }
 
 .peewee_image {
-  width: 50px;
-  height: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
 }
 
 .home_footer__col h2 {
-  padding: 0px 0px 12px 0px;
+  padding: 0rem 0rem .75rem 0rem;
 }
 
 .home_footer__about_us {
-  border-bottom: 2px solid #21c183;
+  border-bottom: 0.125rem solid #21c183;
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .home_footer__about_us::after {
@@ -499,10 +499,10 @@ h2, h3, h4, h5, h6 {
 }
 
 .flickr_img-container__row {
-  margin-top: 30px;
+  margin-top: 1.875rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 8px;
+  gap: .5rem;
 }
 
 .home_footer__twitter {
@@ -812,7 +812,7 @@ h2, h3, h4, h5, h6 {
 }
 
 /* Site Mobile Version */
-@media only screen and (max-width: 414px){
+@media only screen and (max-width: 428px){
   main {
     display: grid;
     grid-template: 
