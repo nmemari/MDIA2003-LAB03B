@@ -348,7 +348,7 @@ h2, h3, h4, h5, h6 {
 }
 
 .home__sub_header {
-  margin: 0.938rem 0rem 35rem 0rem;
+  margin: 0.938rem 0rem 3.5rem 0rem;
   color: #a3a3a3;
 }
 
@@ -416,6 +416,7 @@ h2, h3, h4, h5, h6 {
   grid-template-columns: repeat(5, 1fr);
   gap: 1.563rem;
   justify-content: center;
+  margin-top: 2.5rem;
 }
 
 .worked_with__img {
@@ -434,7 +435,7 @@ h2, h3, h4, h5, h6 {
 
 .home_footer__bio {
   display: flex;
-  margin: 1.563rem 0rem 3.75px 0rem;
+  margin: 1.563rem 0rem 3.75rem 0rem;
   position: relative;
 }
 
@@ -451,7 +452,7 @@ h2, h3, h4, h5, h6 {
 .home_footer__desc {
   display: flex;
   flex-direction: column;
-  margin: 0rem 1.25rem 0rem 0rem;
+  margin: 0rem 1.25rem 0rem 1.25rem;
 }
 
 .peewee_image {
@@ -781,6 +782,10 @@ h2, h3, h4, h5, h6 {
     max-width: 625px;
   }
 
+  .things_above__grid_item {
+    width: 39.063rem;
+  }
+
   .worked_with__img {
     width: 6.625rem;
     height: 4.688rem;
@@ -1023,6 +1028,10 @@ h2, h3, h4, h5, h6 {
   .peewee_image {
     width: 190px;
     height: 190px;
+  }
+
+  .home_footer__desc {
+    margin: 0rem 1.25rem 0rem 1.25rem;
   }
 
   .home_footer__container {
